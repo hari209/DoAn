@@ -5,6 +5,7 @@ import Home from "./src/components/Home";
 import ListAnswer from "./src/components/ListAnswer";
 import  DeThi  from "./src/components/DeThi";
 import MeoThi from "./src/components/MeoThi";
+import CauSai from "./src/components/CauSai";
 const Stack = createNativeStackNavigator()
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         <Stack.Screen name="Ôn tập lý thuyết" component={ListAnswer}/>
         <Stack.Screen name="Bộ đề" component={DeThi}/>
         <Stack.Screen name="Mẹo Thi" component={MeoThi}/>
+        <Stack.Screen name="Tính năng đang phát triển" component={CauSai}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

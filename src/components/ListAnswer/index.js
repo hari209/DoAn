@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, FlatList, Image,  Alert, Modal,Pressable, TouchableOpacity } from 'react-native';
 import CheckboxGroup from 'react-native-checkbox-group';
-import { isEqual } from 'lodash';
-import { cauhoi, typeCauhoi } from "../../utils/constants";
+import { isEqual, includes } from 'lodash';
+import { cauhoi, typeCauhoi, deThi } from "../../utils/constants";
 
-export default function ListAnswer({ navigation }) {
+export default function ListAnswer({ navigation, route }) {
 
   const [data, setData] = useState([])
   const [answer, setAnswer] = useState([])
@@ -14,8 +14,19 @@ export default function ListAnswer({ navigation }) {
   
 
   useEffect(() => {
+    const idDethi = route?.params?.idDethi
+    if(idDethi){
+      const dethi = deThi.find(d => d.idDeThi == idDethi)
+      if(dethi){
+        const ids = dethi.idCauHoi
+        const arrCauHoi = cauhoi.filter(el => includes(ids, el.id))
+        setData(arrCauHoi)
+      }
+      
+    }else{
+      setData(cauhoi)
+    }
     // getData()
-    setData(cauhoi)
   }, [])
 
 
@@ -78,9 +89,9 @@ export default function ListAnswer({ navigation }) {
               data={data}
               renderItem={({ item, index }) =>
                 <View style={{ marginTop: 10, backgroundColor: 'white', width: '100%', padding: 10 }}>
-                  <Text style={{ fontSize: 17 }}>Câu {item.id}: {item.cauhoi}</Text>
+                  <Text style={{ fontSize: 17 }}>Câu {index+1}: {item.cauhoi}</Text>
                   {
-                    item.img ? <Image style={{width:null,height:250,flex:1 }} source={{uri:item.img}}></Image> : null
+                    item.img ? <Image style={{width:null,height:200,flex:1 }} source={{uri:item.img}}></Image> : null
                   }
                   <CheckboxGroup
                     callback={(selected) => handleCheck(item, selected)}

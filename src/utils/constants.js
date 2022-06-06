@@ -1687,6 +1687,349 @@ export const cauhoi = [
       dapan: [3],
       img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/81-82-83.png?alt=media&token=13be4d2a-0a1a-4747-8783-9137ee5c8e6a"
     },
+    {
+      id: 84,
+      socauhoi: "cau84",
+      cauhoi: "Biển nào báo hiệu sắp đến chỗ giao nhau nguy hiểm?",
+      arrDapan: [
+        {
+          label: "Biển 1.",
+          value: 1,
+        },
+        {
+          label: "Biển 1 và 3",
+          value: 2
+        },
+        {
+          label: "Biển 3.",
+          value: 3
+        },
+        {
+          label: "Biển 2 và 3.",
+          value: 4
+        }
+      ],
+      dapan: [4],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/84.png?alt=media&token=88a346cb-ca3d-4633-8102-bdb9e62c6a27"
+    },
+    {
+      id: 85,
+      socauhoi: "cau85",
+      cauhoi: "Biển nào báo hiệu sắp đến chỗ giao nhau với đường sắt có rào chắn?",
+      arrDapan: [
+        {
+          label: "Biển 1.",
+          value: 1,
+        },
+        {
+          label: "Biển 1 và 3",
+          value: 2
+        },
+        {
+          label: "Biển 3.",
+          value: 3
+        }
+      ],
+      dapan: [1],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/85.png?alt=media&token=67ac26d8-1050-44f2-a688-fda233ab9104"
+    },
+    {
+      id: 86,
+      socauhoi: "cau86",
+      cauhoi: "Biển nào báo hiệu giao nhau có tín hiệu đèn?",
+      arrDapan: [
+        {
+          label: "Biển 1.",
+          value: 1,
+        },
+        {
+          label: "Biển 1 và 3",
+          value: 2
+        },
+        {
+          label: "Biển 3.",
+          value: 3
+        }
+      ],
+      dapan: [3],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/85.png?alt=media&token=67ac26d8-1050-44f2-a688-fda233ab9104"
+    },
+    {
+      id: 87,
+      socauhoi: "cau87",
+      cauhoi: "Biển nào báo hiệu nguy hiểm giao nhau với đường sắt?",
+      arrDapan: [
+        {
+          label: "Biển 1.",
+          value: 1,
+        },
+        {
+          label: "Biển 1 và 3",
+          value: 2
+        },
+        {
+          label: "Biển 3.",
+          value: 3
+        }
+      ],
+      dapan: [2],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/87.png?alt=media&token=459bd894-1d91-4f00-8c54-5560fefb901f"
+    },
+    {
+      id: 88,
+      socauhoi: "cau88",
+      cauhoi: "Biển nào báo hiệu đường sắt giao nhau với đường bộ không có rào chắn?",
+      arrDapan: [
+        {
+          label: "Biển 1.",
+          value: 1,
+        },
+        {
+          label: "Biển 2 và 3",
+          value: 2
+        },
+        {
+          label: "Biển 3.",
+          value: 3
+        }
+      ],
+      dapan: [2],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/87.png?alt=media&token=459bd894-1d91-4f00-8c54-5560fefb901f"
+    },
+    {
+      id: 89,
+      socauhoi: "cau89",
+      cauhoi: "Biển nào báo hiệu “Hết đoạn đường ưu tiên”?",
+      arrDapan: [
+        {
+          label: "Biển 1.",
+          value: 1,
+        },
+        {
+          label: "Biển 2 và 3",
+          value: 2
+        },
+        {
+          label: "Biển 3.",
+          value: 3
+        }
+      ],
+      dapan: [3],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/89.png?alt=media&token=a30fca04-fea6-44c6-885a-75986b1d63f1"
+    },
+    {
+      id: 90,
+      socauhoi: "cau90",
+      cauhoi: "Biển nào báo hiệu, chỉ dẫn xe đi trên đường này được quyền ưu tiên qua nơi giao nhau?",
+      arrDapan: [
+        {
+          label: "Biển 1.",
+          value: 1,
+        },
+        {
+          label: "Biển 1 và 3",
+          value: 2
+        },
+        {
+          label: "Biển 3.",
+          value: 3
+        }
+      ],
+      dapan: [2],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/90-91-92.png?alt=media&token=feced7f2-32ce-4679-88a7-28ee01da0ee2"
+    },
+    {
+      id: 91,
+      socauhoi: "cau91",
+      cauhoi: "Biển nào báo hiệu giao nhau với đường không ưu tiên?",
+      arrDapan: [
+        {
+          label: "Biển 1.",
+          value: 1,
+        },
+        {
+          label: "Biển 1 và 3",
+          value: 2
+        },
+        {
+          label: "Biển 3.",
+          value: 3
+        }
+      ],
+      dapan: [1],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/90-91-92.png?alt=media&token=feced7f2-32ce-4679-88a7-28ee01da0ee2"
+    },
+    {
+      id: 92,
+      socauhoi: "cau92",
+      cauhoi: "Biển nào báo hiệu giao nhau với đường ưu tiên?",
+      arrDapan: [
+        {
+          label: "Biển 1.",
+          value: 1,
+        },
+        {
+          label: "Biển 1 và 3",
+          value: 2
+        },
+        {
+          label: "Biển 2.",
+          value: 3
+        }
+      ],
+      dapan: [3],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/90-91-92.png?alt=media&token=feced7f2-32ce-4679-88a7-28ee01da0ee2"
+    },
+    {
+      id: 116,
+      socauhoi: "cau116",
+      cauhoi: "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+      arrDapan: [
+        {
+          label: "Xe tải, xe lam, xe con, mô tô.",
+          value: 1,
+        },
+        {
+          label: "Xe tải, mô tô, xe lam, xe con.",
+          value: 2
+        },
+        {
+          label: "Xe lam, xe tải, xe con, mô tô.",
+          value: 3
+        }, 
+        {
+          label: "Mô tô, xe lam, xe tải, xe con.",
+          value: 4
+        }
+      ],
+      dapan: [2],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/116.png?alt=media&token=a9b37193-cd77-4691-8e86-8ebdf7c82aa7"
+    },
+    {
+      id: 117,
+      socauhoi: "cau117",
+      cauhoi: "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+      arrDapan: [
+        {
+          label: "Xe tải, xe lam, mô tô.",
+          value: 1,
+        },
+        {
+          label: "Xe lam, xe tải, mô tô.",
+          value: 2
+        },
+        {
+          label: "Mô tô, xe lam, xe tải.",
+          value: 3
+        }, 
+        {
+          label: "Xe lam, mô tô, xe tải.",
+          value: 4
+        }
+      ],
+      dapan: [2],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/117.png?alt=media&token=1b7fd30a-e0a5-4434-8a95-00c586be6c58"
+    },
+    {
+      id: 124,
+      socauhoi: "cau124",
+      cauhoi: "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+      arrDapan: [
+        {
+          label: "Xe khách, xe tải, mô tô, xe con.",
+          value: 1,
+        },
+        {
+          label: "Xe con, xe khách, xe tải, mô tô.",
+          value: 2
+        },
+        {
+          label: "Mô tô, xe tải, xe khách, xe con.",
+          value: 3
+        }, 
+        {
+          label: "Mô tô, xe tải, xe con, xe khách.",
+          value: 4
+        }
+      ],
+      dapan: [3],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/124.png?alt=media&token=7e1b4f9d-70c1-47e7-8802-db8f20a9fee3"
+    },
+    {
+      id: 125,
+      socauhoi: "cau125",
+      cauhoi: "Trong trường hợp này xe nào đỗ vi phạm quy tắc giao thông?",
+      arrDapan: [
+        {
+          label: "Xe tải.",
+          value: 1,
+        },
+        {
+          label: "Xe con và mô tô.",
+          value: 2
+        },
+        {
+          label: "Cả ba xe.",
+          value: 3
+        }, 
+        {
+          label: "Xe con và xe tải.",
+          value: 4
+        }
+      ],
+      dapan: [1],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/125.png?alt=media&token=c7aac1da-9559-4715-8106-19962b6f4190"
+    },
+    {
+      id: 128,
+      socauhoi: "cau128",
+      cauhoi: "Xe nào đỗ vi phạm quy tắc giao thông?",
+      arrDapan: [
+        {
+          label: " Cả hai xe.",
+          value: 1,
+        },
+        {
+          label: "Không xe nào vi phạm..",
+          value: 2
+        },
+        {
+          label: "Chỉ xe mô tô vi phạm.",
+          value: 3
+        }, 
+        {
+          label: "Chỉ xe tải vi phạm.",
+          value: 4
+        }
+      ],
+      dapan: [1],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/128.png?alt=media&token=7c395ea2-b551-4a72-9f40-3e8ae8fc99e7"
+    },
+    {
+      id: 132,
+      socauhoi: "cau132",
+      cauhoi: "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông? ",
+      arrDapan: [
+        {
+          label: " Xe lam, mô tô, xe con, xe đạp.",
+          value: 1,
+        },
+        {
+          label: "Xe con, xe đạp, mô tô, xe lam.",
+          value: 2
+        },
+        {
+          label: "Xe lam, xe con, mô tô + xe đạp",
+          value: 3
+        }, 
+        {
+          label: "Mô tô + xe đạp, xe lam, xe con.",
+          value: 4
+        }
+      ],
+      dapan: [4],
+      img: "https://firebasestorage.googleapis.com/v0/b/smarte209-f3934.appspot.com/o/132.png?alt=media&token=26034685-ba31-41fa-941e-197e95d082b1"
+    },
 ]
 
 
@@ -1733,7 +2076,7 @@ export const deThi = [
 {
   idDeThi:1,
   name:"Đề 1",
-  idCauHoi:[1,2,3]
+  idCauHoi:[1,2,3,4,5,6,7,8,9,10,132,128,135,124,117,116,92,91,90,89,88,87,86,85,84,83]
 },
 {
   idDeThi:2,
